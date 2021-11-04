@@ -12,7 +12,7 @@
   "WEI_COST": 0,
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 600000,
-  "MARKETPLACE": "Opensea",
+  "MARKETPLACE": "NFTrade",
   "MARKETPLACE_LINK": "https://app.nftrade.com/assets/avalanche/0xbcc9909d105559ce9a6d9c04cd223a2648a4c460",
   "SHOW_BACKGROUND": true
 }
