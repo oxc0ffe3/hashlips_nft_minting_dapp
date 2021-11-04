@@ -384,17 +384,28 @@ function App() {
                       </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                    <s.Container ai={"center"} jc={"center"} fd={"column"}>
                       <StyledButton
-                        disabled={claimingNft ? 1 : 0}
+                        disabled={claimingNft || claimingRewards ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
                           claimNFTs();
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINTING" : "MINT"}
+                        {claimingNft ? "MINTING..." : "BUY"}
                       </StyledButton>                      
+                      <s.SpacerSmall />
+                      <StyledButton
+                        disabled={claimingRewards || claimingNft ? 1 : 0}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          claimRewards();
+                          getData();
+                        }}
+                      >
+                        {claimingRewards ? "CLAIMING..." : "CLAIM REWARDS"}
+                      </StyledButton>        
                     </s.Container>
                   </>
                 )}
