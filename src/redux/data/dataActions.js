@@ -29,6 +29,11 @@ export const fetchData = () => {
         .getState()
         .blockchain.smartContract.methods.totalSupply()
         .call();
+
+      // let rewardsBalance = await store
+      //   .getState()
+      //   .blockchain.smartContract.methods.reflectionBalance()
+      //   .call();
       // let cost = await store
       //   .getState()
       //   .blockchain.smartContract.methods.cost()
@@ -36,7 +41,8 @@ export const fetchData = () => {
 
       dispatch(
         fetchDataSuccess({
-          totalSupply,
+          totalSupply//,
+          // rewardsBalance
           // cost,
         })
       );

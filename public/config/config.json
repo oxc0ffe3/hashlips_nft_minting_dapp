@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "CONTRACT_ADDRESS": "0xCc6d7967bFe2ddDd3811fFe4810807BB2242d3b9",
   "SCAN_LINK": "https://ftmscan.com/address/0xCc6d7967bFe2ddDd3811fFe4810807BB2242d3b9",
   "NETWORK": {
@@ -14,5 +15,22 @@
   "GAS_LIMIT": 350000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+=======
+  "CONTRACT_ADDRESS": "0x9D2cA5a7cc262948293F920298133A9243C4bC99",
+  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "NETWORK": {
+    "NAME": "Avalanche Fuji Testnet",
+    "SYMBOL": "AVAX",
+    "ID": 1
+  },
+  "NFT_NAME": "AvaxDots",
+  "SYMBOL": "AvaxDots",
+  "MAX_SUPPLY": 5555,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 600000,
+  "MARKETPLACE": "NFTrade",
+  "MARKETPLACE_LINK": "https://app.nftrade.com/assets/avalanche/0xbcc9909d105559ce9a6d9c04cd223a2648a4c460",
+>>>>>>> 9f9505bc6512e424db5ead3bda29f3003f6ef0d9
   "SHOW_BACKGROUND": true
 }
