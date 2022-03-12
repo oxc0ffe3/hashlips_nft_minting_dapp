@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xCc6d7967bFe2ddDd3811fFe4810807BB2242d3b9",
-  "SCAN_LINK": "https://ftmscan.com/address/0xCc6d7967bFe2ddDd3811fFe4810807BB2242d3b9",
+  "CONTRACT_ADDRESS": "0x4D597B3f1d39c44Cf0249DfC2bb7FA63ada9eF50",
+  "SCAN_LINK": "https://ftmscan.com/address/0x4D597B3f1d39c44Cf0249DfC2bb7FA63ada9eF50",
   "NETWORK": {
     "NAME": "Fantom",
     "SYMBOL": "FTM",
     "ID": 250
   },
-  "NFT_NAME": "Fantom Vampires",
-  "SYMBOL": "FVAMP",
-  "MAX_SUPPLY": 4444,
-  "WEI_COST": 2500000000000000000,
-  "DISPLAY_COST": 2.5,
+  "NFT_NAME": "Project: Geometric",
+  "SYMBOL": "GEO",
+  "MAX_SUPPLY": 777,
+  "WEI_COST": 100000000000000000000,
+  "DISPLAY_COST": 100,
   "GAS_LIMIT": 350000,
   "MARKETPLACE": "Paintswap.Finance",
-  "MARKETPLACE_LINK": "https://paintswap.finance/marketplace/collections/fantomvampires",
+  "MARKETPLACE_LINK": "https://paintswap.finance/marketplace/collections/projectgeometric",
   "SHOW_BACKGROUND": true
 }
