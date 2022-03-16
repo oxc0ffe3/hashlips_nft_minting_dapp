@@ -411,7 +411,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINTING..." : "BUY"}
+                        {claimingNft ? "MINTING..." : "MINT"}
                       </StyledButton>                      
                       <s.SpacerSmall />
                       {/* <StyledButton
@@ -460,8 +460,9 @@ function App() {
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            successfully mint your NFT. The reason for such a high limit is because
+            all computation is performed, and the results stored on-chain.  Your NFT
+            exists purely on the blockchain, no IPFS, no cloud storage.
           </s.TextDescription>
         </s.Container>
       </s.Container>

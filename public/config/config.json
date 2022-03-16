@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x4D597B3f1d39c44Cf0249DfC2bb7FA63ada9eF50",
-  "SCAN_LINK": "https://ftmscan.com/address/0x4D597B3f1d39c44Cf0249DfC2bb7FA63ada9eF50",
+  "CONTRACT_ADDRESS": "0x4d597b3f1d39c44cf0249dfc2bb7fa63ada9ef50",
+  "SCAN_LINK": "https://polygonscan.com/address/0x4d597b3f1d39c44cf0249dfc2bb7fa63ada9ef50",
   "NETWORK": {
-    "NAME": "Fantom",
-    "SYMBOL": "FTM",
-    "ID": 250
+    "NAME": "Polygon",
+    "SYMBOL": "MATIC",
+    "ID": 137
   },
   "NFT_NAME": "Project: Geometric",
   "SYMBOL": "GEO",
   "MAX_SUPPLY": 777,
-  "WEI_COST": 100000000000000000000,
-  "DISPLAY_COST": 100,
-  "GAS_LIMIT": 350000,
-  "MARKETPLACE": "Paintswap.Finance",
-  "MARKETPLACE_LINK": "https://paintswap.finance/marketplace/collections/projectgeometric",
+  "WEI_COST": 50000000000000000000,
+  "DISPLAY_COST": 50,
+  "GAS_LIMIT": 4500000,
+  "MARKETPLACE": "OpenSea",
+  "MARKETPLACE_LINK": "https://https://opensea.io/collection/project-geometric",
   "SHOW_BACKGROUND": true
 }
